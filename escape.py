@@ -12,5 +12,13 @@ if __name__ == '__main__':
     response = input('You see a black box ... open it? (y/n) ')
     if response.lower() == 'y':
         print_dramatic_text('you opened the box!')
+
+        # TODO add events for the open box ...
     else:
         print_dramatic_text('the box remains closed ... for now')
+
+    response = input('What has hands but cannot clap? ')
+    if response.lower() == 'clock' or response.lower() == 'a clock':
+        print_dramatic_text('correct!')
+    else:
+        print_dramatic_text('incorrect ...')
