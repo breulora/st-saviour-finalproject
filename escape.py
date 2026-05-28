@@ -27,7 +27,7 @@ if __name__ == '__main__':
         print_dramatic_text('incorrect ...')
 
     response = input('You see a lock ... crack the code? (y/n) ')
-    if response.lower() == 'y':
+    if response.lower() == 'y'or response.lower() == 'yes':
         print_dramatic_text('you decided to crack the code!')
 
         # TODO add events for the lock ...
@@ -42,7 +42,7 @@ if __name__ == '__main__':
         print_dramatic_text('incorrect ...')
 
     response = input('You see a bigger box ... open it? (y/n) ')
-    if response.lower() == 'y':
+    if response.lower() == 'y'or response.lower() == 'yes':
         print_dramatic_text('you opened the box!')
 
         # TODO add events for the open box ...
@@ -57,7 +57,7 @@ if __name__ == '__main__':
         print_dramatic_text('incorrect ...')
 
     response = input('You see a phone ... unlock it? (y/n) ')
-    if response.lower() == 'y':
+    if response.lower() == 'y'or response.lower() == 'yes':
         print_dramatic_text('you unlocked it!')
 
         # TODO add events for the phone ...
@@ -72,7 +72,7 @@ if __name__ == '__main__':
         print_dramatic_text('incorrect ...')
 
     response = input('You see paints and brushes ... mix them? (y/n) ')
-    if response.lower() == 'y':
+    if response.lower() == 'y'or response.lower() == 'yes':
         print_dramatic_text('you mixed the paints!')
 
         # TODO add events for the mix paints ...
