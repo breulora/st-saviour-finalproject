@@ -10,7 +10,7 @@ if __name__ == '__main__':
     print_dramatic_text('welcome to Breukelen\'s Escape Room!')
 
     response = input('You see a black box ... open it? (y/n) ')
-    if response.lower() == 'y':
+    if response.lower() == 'y' or response.lower() == 'yes':
         print_dramatic_text('you opened the box!')
 
         # TODO add events for the open box ...
