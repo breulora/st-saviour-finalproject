@@ -84,7 +84,7 @@ if __name__ == '__main__':
         print_dramatic_text('correct!')
         score += 1
     else:
-        print_dramatic_text('icorrect ...')
+        print_dramatic_text('incorrect ...')
         
     # at the end of the game
     if score >= 4:
